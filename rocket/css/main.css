@@ -1,0 +1,90 @@
+body{	
+	margin: 0 ;
+	font-family: 'Montserrat', sans-serif;
+	background-repeat: no-repeat;
+}
+.header{
+	background: linear-gradient(113.15deg, #F66300 27.26%, #EFBF44 106.85%);
+	height: 100vh;
+	text-decoration: none;
+}
+.header-line{
+	display: block;
+	text-align: center;
+	padding-top: 52px;
+	margin-left: auto;
+}
+
+.header-line-text:hover, .header-line-text2:hover{
+	border-bottom: 2px solid #FFF;
+}
+
+.header-line-text:active, .header-line-text2:active {
+	transition: 0.2s;
+	border-bottom: 5px solid #F56E08;
+}
+
+.header-line-text{
+
+	margin-right: 84px;
+	font-size: 30px;
+	font-weight: 500;
+	text-decoration: none;
+	color:  #fff;
+
+	
+}
+.header-line-text2{
+
+	font-size: 30px;
+	font-weight: 500;
+	text-decoration: none;
+	color:  #fff;
+	
+}
+
+.header-down-title{
+	text-align: center;
+	margin-top: 210px;
+	margin-right: +100px;
+}
+
+.header-down-sub{
+
+	color: #FFF;
+	font-weight:  600;
+	font-size: 40px;
+	text-align:  center;
+	top: -100px;
+	position: relative;
+	margin-top: 12px;
+}
+.header-down-but{
+	font-weight: 700;
+	font-size:  40px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 7px;
+	padding-left: 57px;
+	padding-bottom: 7px;
+	padding-right: 57px;
+	background: linear-gradient(147.39deg, #F66300 19.51%, #EE3C5B 81.38%);
+	border-radius: 30px;
+	width: 356px;
+	position: relative;
+	display: block;
+	margin: auto;
+	box-shadow: 0px 0px 28px 1px #F04643;
+	transition: 0.5s;
+}
+
+.header-down-but:hover{
+	background: #F66300;
+	box-shadow:  0px 0px 28px 1px #FFF;
+}
+
+.header-down-but:active{
+	transition: 0.1s;
+	box-shadow:  0px 0px 100px 10px #FFF;
+}
